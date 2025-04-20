@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Feeling Special? Treat Yo' Self!",
+    "description": "We're servin up new promos and specials on our delicious menu items all the time! Daily Specials are available for dine-in only.",
+    "image": {
+      "filename": "Black-Bold-Best-Seafood-Flyer-Instagram-Post.png",
+      "path": "assets/specials\\Black-Bold-Best-Seafood-Flyer-Instagram-Post.png",
+      "url": "https://texascraftwings.com/wp-content/uploads/2024/01/Black-Bold-Best-Seafood-Flyer-Instagram-Post-300x300.png"
+    },
+    "url": "https://texascraftwings.com/specials/",
+    "day": ""
+  },
+  {
+    "title": "Boiled Seafood Platters",
+    "description": "Leave a Comment Cancel Reply",
+    "image": {
+      "filename": "default.png",
+      "path": "assets/specials/default.png"
+    },
+    "url": "https://texascraftwings.com/special/boiled-seafood-platters/",
+    "day": ""
+  },
+  {
+    "title": "Limited Time Seafood Menu",
+    "description": "By popular demand, we\u2019re bringing back some of the seafood favorites from the 242 Pub days!",
+    "image": {
+      "filename": "default.png",
+      "path": "assets/specials/default.png"
+    },
+    "url": "https://texascraftwings.com/special/limited-time-seafood-menu/",
+    "day": ""
+  },
+  {
+    "title": "Sunday",
+    "description": "Slugger Special",
+    "image": {
+      "filename": "sunday_slugger.png",
+      "path": "assets/specials\\sunday_slugger.png",
+      "url": "Default for sunday"
+    },
+    "url": "https://texascraftwings.com/special/sunday-showdown-special/",
+    "day": ""
+  },
+  {
+    "title": "Saturday",
+    "description": "Price: $35",
+    "image": {
+      "filename": "Grand_Slam_Saturdays_Instagram_Post.png",
+      "path": "assets/specials\\Grand_Slam_Saturdays_Instagram_Post.png",
+      "url": "Default for saturday"
+    },
+    "url": "https://texascraftwings.com/special/blitz-bites-saturday-special/",
+    "day": ""
+  },
+  {
+    "title": "Thursday",
+    "description": "Ladies Night",
+    "image": {
+      "filename": "default.png",
+      "path": "assets/specials/default.png"
+    },
+    "url": "https://texascraftwings.com/special/chicks-and-sips/",
+    "day": ""
+  },
+  {
+    "title": "Monday",
+    "description": "Price: $2",
+    "image": {
+      "filename": "draft.png",
+      "path": "assets/specials\\draft.png",
+      "url": "Default for monday"
+    },
+    "url": "https://texascraftwings.com/special/monday-night-football-special/",
+    "day": ""
+  },
+  {
+    "title": "Wednesday",
+    "description": "Price: $13.50",
+    "image": {
+      "filename": "Wildcard_Wing_Wednesday_TCW.png",
+      "path": "assets/specials\\Wildcard_Wing_Wednesday_TCW.png",
+      "url": "Default for wednesday"
+    },
+    "url": "https://texascraftwings.com/special/wing-wednesday/",
+    "day": ""
+  }
+]
