@@ -26,259 +26,409 @@ const locations = [
 ];
 
 const menuItems = [
-  // Wings Category
   {
     id: 1,
-    name: 'Traditional Wings',
-    description: 'Fresh, never frozen wings tossed in your choice of sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 13.99,
-      '9 pc': 19.99,
-      '18 pc': 34.99
-    },
-    price: 13.99,
-    image: '/images/battered-wings-e1694751568381-custom_crop.png',
-    isPopular: true
+    name: "BYOB",
+    price: 9.99,
+    description: "Delicious BYOB.",
+    category: "other",
+    image: "/images/new_food_menu_images/BYOB.png",
+    isPopular: false
   },
   {
     id: 2,
-    name: 'BBQ Wings',
-    description: 'Classic wings with our signature BBQ sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 13.99,
-      '9 pc': 19.99,
-      '18 pc': 34.99
-    },
-    price: 13.99,
-    image: '/images/chiken_wings_bbq_sauce_3-copy-e1682088042401.png',
-    isPopular: true
+    name: "Wings",
+    price: 9.99,
+    description: "Delicious Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/wings.png",
+    isPopular: false
   },
   {
     id: 3,
-    name: 'Double Fried Wings',
-    description: 'Extra crispy double-fried wings with your choice of sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 14.99,
-      '9 pc': 21.99,
-      '18 pc': 36.99
-    },
-    price: 14.99,
-    image: '/images/double-fried-wings-e1694794972623-custom_crop.png',
-    isPopular: true
+    name: "BBQ Bird Dog",
+    price: 9.99,
+    description: "Delicious BBQ Bird Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/bbq bird dog.png",
+    isPopular: false
   },
   {
     id: 4,
-    name: 'Thai Chili Wings',
-    description: 'Grilled wings tossed in sweet Thai chili sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 13.99,
-      '9 pc': 19.99,
-      '18 pc': 34.99
-    },
-    price: 13.99,
-    image: '/images/thai-chili-grilled-wing-single-custom_crop.png',
+    name: "Baxters Eggs",
+    price: 9.99,
+    description: "Delicious Baxters Eggs.",
+    category: "sides",
+    image: "/images/new_food_menu_images/baxters eggs.png",
     isPopular: false
   },
   {
     id: 5,
-    name: 'Buffalo Wings',
-    description: 'Crispy wings tossed in buffalo sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 14.99,
-      '9 pc': 21.99,
-      '18 pc': 36.99
-    },
-    price: 14.99,
-    image: '/images/hot-wings-isolated-white-copy-custom_crop.png',
+    name: "Cheese Curds",
+    price: 9.99,
+    description: "Delicious Cheese Curds.",
+    category: "sides",
+    image: "/images/new_food_menu_images/cheese-curds.png",
     isPopular: false
   },
   {
     id: 6,
-    name: 'Boneless Wings',
-    description: 'Hand-breaded boneless wings with your choice of sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 12.99,
-      '9 pc': 18.99,
-      '18 pc': 31.99
-    },
-    price: 12.99,
-    image: '/images/battered-buffalo-sauce-above-e1694794879661-custom_crop.png',
-    isPopular: true
+    name: "Naked Wings",
+    price: 9.99,
+    description: "Delicious Naked Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked wings.png",
+    isPopular: false
   },
   {
     id: 7,
-    name: 'Pig Wings',
-    description: 'Tender pork wings with your choice of sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 14.99,
-      '9 pc': 21.99,
-      '18 pc': 36.99
-    },
-    price: 14.99,
-    image: '/images/Pig-wings-custom_crop.png',
+    name: "Pig Wings",
+    price: 9.99,
+    description: "Delicious Pig Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/pig wings.png",
     isPopular: false
   },
   {
     id: 8,
-    name: 'Chicken Tenders',
-    description: 'Fresh, hand-breaded chicken tenders served with your choice of sauce',
-    category: 'wings',
-    prices: {
-      '6 pc': 11.99,
-      '9 pc': 17.99,
-      '18 pc': 30.99
-    },
-    price: 11.99,
-    image: '/images/chicken-tenders-copy-e1694794894123-custom_crop.png',
+    name: "Sausage Dog",
+    price: 9.99,
+    description: "Delicious Sausage Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/sausage dog.png",
     isPopular: false
   },
-
-  // Burgers Category
   {
     id: 9,
-    name: 'Classic Bacon Cheeseburger',
-    description: 'Fresh beef patty with crispy bacon, cheddar cheese, lettuce, and tomato',
-    category: 'burgers',
-    prices: {
-      'Single': 12.99,
-      'Double': 15.99
-    },
-    price: 12.99,
-    image: '/images/bacon-cheeseburger-e1694709498252-custom_crop.png',
-    isPopular: true
+    name: "Single Wing",
+    price: 9.99,
+    description: "Delicious Single Wing.",
+    category: "wings",
+    image: "/images/new_food_menu_images/single wing.png",
+    isPopular: false
   },
   {
     id: 10,
-    name: 'Craft Chicken Sandwich',
-    description: 'Hand-breaded chicken breast with lettuce, tomato, and mayo',
-    category: 'burgers',
-    prices: {
-      'Regular': 11.99,
-      'Spicy': 12.99
-    },
-    price: 11.99,
-    image: '/images/craft-chicken-e1694709518839-custom_crop.png',
+    name: "Onion Rings",
+    price: 9.99,
+    description: "Delicious Onion Rings.",
+    category: "sides",
+    image: "/images/new_food_menu_images/onion-rings-copy.png",
     isPopular: false
   },
   {
     id: 11,
-    name: 'Buffalo Dirty Bird',
-    description: 'Crispy chicken sandwich tossed in buffalo sauce',
-    category: 'burgers',
-    price: 12.99,
-    image: '/images/buffalo-dirty-bird-side-view-e1694794842910-custom_crop.png',
+    name: "Mushrooms",
+    price: 9.99,
+    description: "Delicious Mushrooms.",
+    category: "sides",
+    image: "/images/new_food_menu_images/mushrooms.jpg",
     isPopular: false
   },
   {
     id: 12,
-    name: 'El Diablo Dirty Bird',
-    description: 'Extra spicy chicken sandwich with jalapeños',
-    category: 'burgers',
-    price: 13.99,
-    image: '/images/el-diablo-dirty-bird-above-custom_crop.png',
+    name: "Craft Chicken",
+    price: 9.99,
+    description: "Delicious Craft Chicken.",
+    category: "wings",
+    image: "/images/new_food_menu_images/craft chicken.png",
     isPopular: false
   },
   {
     id: 13,
-    name: 'Jalapeño Burger',
-    description: 'Spicy burger topped with fresh jalapeños and pepper jack cheese',
-    category: 'burgers',
-    prices: {
-      'Single': 12.99,
-      'Double': 15.99
-    },
-    price: 12.99,
-    image: '/images/el-jalepeno-e1694186986476-custom_crop.png',
+    name: "Border Taters",
+    price: 9.99,
+    description: "Delicious Border Taters.",
+    category: "sides",
+    image: "/images/new_food_menu_images/border taters.png",
     isPopular: false
   },
   {
     id: 14,
-    name: 'Border Dirty Dog',
-    description: 'Premium hot dog loaded with toppings',
-    category: 'burgers',
-    price: 8.99,
-    image: '/images/Border-dirty-dog-above-custom_crop.png',
+    name: "Battered Wings",
+    price: 9.99,
+    description: "Delicious Battered Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/battered wings.png",
     isPopular: false
   },
   {
     id: 15,
-    name: 'Sausage Dog',
-    description: 'Grilled sausage with sautéed onions and peppers',
-    category: 'burgers',
+    name: "Onion Strings",
     price: 9.99,
-    image: '/images/Sausage-dog-custom_crop.png',
+    description: "Delicious Onion Strings.",
+    category: "sides",
+    image: "/images/new_food_menu_images/onion strings.png",
     isPopular: false
   },
-
-  // Sides Category
   {
     id: 16,
-    name: 'Buffalo Loaded Fries',
-    description: 'Crispy fries topped with buffalo sauce and cheese',
-    category: 'sides',
-    price: 8.99,
-    image: '/images/buffalo-loaded-fries-custom_crop.png',
+    name: "Fried Pickles",
+    price: 9.99,
+    description: "Delicious Fried Pickles.",
+    category: "sides",
+    image: "/images/new_food_menu_images/fried pickles.jpg",
     isPopular: false
   },
   {
     id: 17,
-    name: 'Cheese Curds',
-    description: 'Wisconsin white cheddar cheese curds, lightly breaded',
-    category: 'sides',
-    price: 7.99,
-    image: '/images/cheese-curds-custom_crop.png',
+    name: "Boneless Wings",
+    price: 9.99,
+    description: "Delicious Boneless Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/boneless wings.png",
     isPopular: false
   },
   {
     id: 18,
-    name: 'Onion Rings',
-    description: 'Crispy battered onion rings served with your choice of sauce',
-    category: 'sides',
-    price: 6.99,
-    image: '/images/onion-rings-copy-e1694794957291-custom_crop.png',
+    name: "Teriyaki Wings",
+    price: 9.99,
+    description: "Delicious Teriyaki Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/terryaki wings.png",
     isPopular: false
   },
   {
     id: 19,
-    name: 'Border Taters',
-    description: 'Seasoned potato wedges served with ranch dressing',
-    category: 'sides',
-    price: 7.99,
-    image: '/images/border-taters-e1694750825414-custom_crop.png',
+    name: "Border Bird Dog",
+    price: 9.99,
+    description: "Delicious Border Bird Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/border bird dog.png",
     isPopular: false
   },
   {
     id: 20,
-    name: 'Buffalo Cauliflower',
-    description: 'Crispy cauliflower florets tossed in buffalo sauce',
-    category: 'sides',
-    price: 8.99,
-    image: '/images/buffalo-cauliflower-sauced-above-e1694794866420-custom_crop.png',
+    name: "Buffalo Taters",
+    price: 9.99,
+    description: "Delicious Buffalo Taters.",
+    category: "sides",
+    image: "/images/new_food_menu_images/buffalo taters.png",
     isPopular: false
   },
   {
     id: 21,
-    name: 'Baxters Deviled Eggs',
-    description: 'Classic deviled eggs with a spicy twist',
-    category: 'sides',
-    price: 6.99,
-    image: '/images/baxters-deviled-eggs-above-e1694794915175-custom_crop.png',
+    name: "Chicken Tenders",
+    price: 9.99,
+    description: "Delicious Chicken Tenders.",
+    category: "sides",
+    image: "/images/new_food_menu_images/chicken tenders.png",
     isPopular: false
   },
   {
     id: 22,
-    name: 'Border Flatbread',
-    description: 'Fresh flatbread topped with your choice of ingredients',
-    category: 'sides',
+    name: "Piggy Wings",
     price: 9.99,
-    image: '/images/border-flatbread-e1694750858465-custom_crop.png',
+    description: "Delicious Piggy Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/piggy wings 2.png",
+    isPopular: false
+  },
+  {
+    id: 23,
+    name: "Fried Jalepenos",
+    price: 9.99,
+    description: "Delicious Fried Jalepenos.",
+    category: "sides",
+    image: "/images/new_food_menu_images/fried Jalepenos.png",
+    isPopular: false
+  },
+  {
+    id: 24,
+    name: "Fried Mushrooms",
+    price: 9.99,
+    description: "Delicious Fried Mushrooms.",
+    category: "sides",
+    image: "/images/new_food_menu_images/fried mushrooms.png",
+    isPopular: false
+  },
+  {
+    id: 25,
+    name: "El Diablo Bird Dog",
+    price: 9.99,
+    description: "Delicious El Diablo Bird Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/el diable bird dog.png",
+    isPopular: false
+  },
+  {
+    id: 26,
+    name: "Buff Flatbread",
+    price: 9.99,
+    description: "Delicious Buff Flatbread.",
+    category: "other",
+    image: "/images/new_food_menu_images/buff flatbread.png",
+    isPopular: false
+  },
+  {
+    id: 27,
+    name: "BBQ Flatbread",
+    price: 9.99,
+    description: "Delicious BBQ Flatbread.",
+    category: "other",
+    image: "/images/new_food_menu_images/bbq flatbread.png",
+    isPopular: false
+  },
+  {
+    id: 28,
+    name: "Naked Battered Wing",
+    price: 9.99,
+    description: "Delicious Naked Battered Wing.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked battered wing.png",
+    isPopular: false
+  },
+  {
+    id: 29,
+    name: "Naked Grilled Wings",
+    price: 9.99,
+    description: "Delicious Naked Grilled Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked grilled wings.png",
+    isPopular: false
+  },
+  {
+    id: 30,
+    name: "Double Fried Wings",
+    price: 9.99,
+    description: "Delicious Double Fried Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/double fried wings.png",
+    isPopular: false
+  },
+  {
+    id: 31,
+    name: "Buffalo Bone In Wings",
+    price: 9.99,
+    description: "Delicious Buffalo Bone In Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/buffalo bone in.png",
+    isPopular: false
+  },
+  {
+    id: 32,
+    name: "Naked Double Fried",
+    price: 9.99,
+    description: "Delicious Naked Double Fried.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked double fried.png",
+    isPopular: false
+  },
+  {
+    id: 33,
+    name: "Border Flatbread",
+    price: 9.99,
+    description: "Delicious Border Flatbread.",
+    category: "other",
+    image: "/images/new_food_menu_images/border flatbread.png",
+    isPopular: false
+  },
+  {
+    id: 34,
+    name: "Bacon Cheeseburger",
+    price: 9.99,
+    description: "Delicious Bacon Cheeseburger.",
+    category: "burgers",
+    image: "/images/new_food_menu_images/bacon cheeseburger.png",
+    isPopular: false
+  },
+  {
+    id: 35,
+    name: "Buffalo Bird Dog",
+    price: 9.99,
+    description: "Delicious Buffalo Bird Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/buffalo bird dog 2.png",
+    isPopular: false
+  },
+  {
+    id: 36,
+    name: "El Jalepeno Special",
+    price: 9.99,
+    description: "Delicious El Jalepeno Special.",
+    category: "other",
+    image: "/images/new_food_menu_images/el jalepeno.png",
+    isPopular: false
+  },
+  {
+    id: 37,
+    name: "BBQ Rodeo Burger",
+    price: 9.99,
+    description: "Delicious BBQ Rodeo Burger.",
+    category: "burgers",
+    image: "/images/new_food_menu_images/bbq rodeo Burger.png",
+    isPopular: false
+  },
+  {
+    id: 38,
+    name: "Naked Boneless Wings",
+    price: 9.99,
+    description: "Delicious Naked Boneless Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked boneless wings.png",
+    isPopular: false
+  },
+  {
+    id: 39,
+    name: "Special Dish IMG 1732",
+    price: 9.99,
+    description: "Delicious Special Dish IMG 1732.",
+    category: "other",
+    image: "/images/new_food_menu_images/IMG_1732 copy.png",
+    isPopular: false
+  },
+  {
+    id: 40,
+    name: "El Jalepeno Burger",
+    price: 9.99,
+    description: "Delicious El Jalepeno Burger.",
+    category: "burgers",
+    image: "/images/new_food_menu_images/el jalepeno burger.png",
+    isPopular: false
+  },
+  {
+    id: 41,
+    name: "Buffalo Sausage Dog",
+    price: 9.99,
+    description: "Delicious Buffalo Sausage Dog.",
+    category: "other",
+    image: "/images/new_food_menu_images/buffalo sausage dog.png",
+    isPopular: false
+  },
+  {
+    id: 42,
+    name: "Naked Cauliflower Bites",
+    price: 9.99,
+    description: "Delicious Naked Cauliflower Bites.",
+    category: "sides",
+    image: "/images/new_food_menu_images/naked cauliflower bites.png",
+    isPopular: false
+  },
+  {
+    id: 43,
+    name: "Nashville Hot Chicken",
+    price: 9.99,
+    description: "Delicious Nashville Hot Chicken.",
+    category: "wings",
+    image: "/images/new_food_menu_images/nashville hot chicken.png",
+    isPopular: false
+  },
+  {
+    id: 44,
+    name: "Buffalo Cauliflower Bites",
+    price: 9.99,
+    description: "Delicious Buffalo Cauliflower Bites.",
+    category: "sides",
+    image: "/images/new_food_menu_images/buffalo cauliflower bites.png",
+    isPopular: false
+  },
+  {
+    id: 45,
+    name: "Naked Double Fried Wings",
+    price: 9.99,
+    description: "Delicious Naked Double Fried Wings.",
+    category: "wings",
+    image: "/images/new_food_menu_images/naked double fried wings.png",
     isPopular: false
   }
 ];
@@ -334,7 +484,5 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Export the app for Vercel
+module.exports = app;
